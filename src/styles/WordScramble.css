@@ -319,7 +319,7 @@ button {
 /* ===== MOBILE COMPRESSION ===== */
 @media (max-width: 600px) {
   .word-game-card {
-    margin: 2rem;
+    margin: 1.5rem;
     padding: 1rem 1rem;
     border-radius: 1.2rem;
     max-width: 100%;
@@ -360,8 +360,22 @@ button {
   .btn-submit,
   .btn-clue {
     padding: 0.45rem;
-    font-size: 0.95rem;
+    font-size: 0.75rem;
     margin-bottom: 0.6rem;
+  }
+
+  .input-controls {
+    flex-direction: row !important;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .btn-backspace,
+  .btn-clear {
+    width: 130px;        
+    min-width: 130px;
+    padding: 8px 0;
+    margin: 0;
   }
 
   .btn-start {
